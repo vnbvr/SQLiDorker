@@ -1,4 +1,4 @@
-Continue # SQLiDorker
+# SQLiDorker
 # Advanced Asynchronous SQL Injection Scanner
 
 An advanced SQL injection scanner implemented in Python. This tool tests web applications for SQL injection vulnerabilities using multiple injection techniques (error-based, time-based, boolean-based, union-based, and advanced payloads). It also detects Web Application Firewalls (WAFs) and fingerprints backend Database Management Systems (DBMS) by analyzing error messages. Additionally, it features Google dorking capabilities to automatically search for and test potential vulnerable targets—allowing you to scan URLs found through dorking
