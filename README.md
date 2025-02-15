@@ -1,4 +1,4 @@
-# SQLiDorker
+Continue # SQLiDorker
 # Advanced Asynchronous SQL Injection Scanner
 
 An advanced SQL injection scanner implemented in Python. This tool tests web applications for SQL injection vulnerabilities using multiple injection techniques (error-based, time-based, boolean-based, union-based, and advanced payloads). It also detects Web Application Firewalls (WAFs) and fingerprints backend Database Management Systems (DBMS) by analyzing error messages. Additionally, it features Google dorking capabilities to automatically search for and test potential vulnerable targets—allowing you to scan URLs found through dorking
@@ -29,8 +29,8 @@ An advanced SQL injection scanner implemented in Python. This tool tests web app
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/advanced-sqli-scanner.git
-    cd advanced-sqli-scanner
+    git clone https://github.com/vnbvr/SQLiDorker.git
+    cd SQLiDorker
     ```
 
 2. **Install Dependencies:**
@@ -42,17 +42,17 @@ An advanced SQL injection scanner implemented in Python. This tool tests web app
 
    - **Scan a Single URL:**
      ```bash
-     python sqli_scanner.py --url "http://example.com/page.php?id=1"
+     python SQLiDorker.py --url "http://example.com/page.php?id=1"
      ```
 
    - **Search Using a Google Dork:**
      ```bash
-     python sqli_scanner.py --dork "inurl:page.php?id="
+     python SQLiDorker.py --dork "inurl:page.php?id="
      ```
 
    - **Verbose Output and Custom Timeout:**
      ```bash
-     python sqli_scanner.py --url "http://example.com/page.php?id=1" --verbose --timeout 45
+     python SQLiDorker.py --url "http://example.com/page.php?id=1" --verbose --timeout 45
      ```
 
 ## Disclaimer
